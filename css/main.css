@@ -1,0 +1,79 @@
+.heading {
+	font-family: cursive;
+	color: rgb(75, 75, 75);
+	font-size: 3em;
+}
+
+div.tally-container {
+	width: 40%;
+	text-align: inherit;
+}
+
+div.tally-device .tally-box-container .tally-box {
+	display: inline-block;
+	border-style: solid;
+	border-width: 30px 5px;
+	border-radius: 30px;
+	border-color: rgb(75, 75, 75);
+	/*background-color: rgb(200,0,0);*/
+}
+
+div.tally-device .tally-box-container .tally-box .number-block {
+	display: inline-block;
+	font-size: 8em;
+	font-family: monospace;
+	padding: 0px 5px;
+	border-color: rgb(150, 150, 150);
+	border-width: 0px 1px 0px 0px;
+	border-style: solid;
+}
+
+/*div.tally-device .tally-box-container .tally-box .number-block-last {
+	display: inline-block;
+	font-size: 8em;
+	font-family: monospace;
+	padding: 0px 5px;
+}*/
+
+button:focus {
+	outline: 0px;
+}
+
+div.tally-device .tally-button {
+	height: 3em;
+	width: 7em;
+	margin: 15px 5px;
+	border: none;
+	text-decoration: none;
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 20px;
+}
+
+div.tally-device .tally-button:hover {
+	/*transform: translate(-10px, -10px);*/
+	transform: scale(1.1);
+	transition-property: transform;
+	transition-duration: 0.1s;
+	transition-timing-function: ease-out;
+}
+
+div.tally-device .tally-button:active {
+	/*transform: translate(0px, 0px);*/
+	transform: scale(1);
+	transition-property: transform;
+	transition-duration: 0.1s;
+	transition-timing-function: ease-out;
+}
+
+#tally-count {
+	background-color: rgb(75, 75, 75);
+	border-color: rgb(75, 75, 75);
+	color: white;
+}
+
+#tally-reset {
+	background-color: white;
+	border-color: rgb(75, 75, 75);
+	color: black;	
+}
